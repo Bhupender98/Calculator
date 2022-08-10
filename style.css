@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 650px;
+    border: 1px solid black;
+    margin: 5% auto;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+.container input[type="text"]{
+    height: 6rem;
+    width: 95%;
+    margin: 1rem;
+    font-size: 2.2rem;
+    padding-right: 1.2rem;
+    text-align: end;
+}
+.container table{
+    margin: 1rem;
+}
+.container table tr{
+    text-align: center;
+}
+.container table tr td{
+    height: 5.5rem;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 2.1rem;
+    cursor: pointer;
+}
+.container table tr td:hover{
+   background-color: orange;
+   color: white;
+}
+.mahroon{
+    background-color: rgb(175, 6, 6);
+    color: white;
+}
+.mahroon:hover{
+    background-color: red !important;
+    color: white;
+}
